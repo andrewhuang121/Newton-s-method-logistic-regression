@@ -11,7 +11,7 @@ nparams = size(x,2);
 
 theta = zeros(nparams, 1); %first initialize with all zeros
 
-n_iterations = 30;
+n_iterations = 30; %generally ok
 
 for i = 1:n_iterations
     ytx = y .* (x * theta);
